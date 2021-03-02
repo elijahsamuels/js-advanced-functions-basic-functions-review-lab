@@ -204,6 +204,21 @@ We now know how to define a function as a function expression. Very importantly,
 assignment: if we assign a `String` or the result of an arithmetic expression to
 a variable, those assignments are not hoisted either.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **LAB**: Implement a function expression called `mondayWork`. The function
 should return a `String` like `"This Monday, I will ... ."` Fill in the `...`
 with the activity that's passed in as the first parameter. If nothing is passed
@@ -446,7 +461,17 @@ theBase(); // => 3
 
 The `answer` and `theBase` functions are **closures**; they have access to the
 `base` variable because it's defined in their parent function. When they're
-executed, they "let out" the values of the sum and the original base number,
+executed, they "let ou
+
+
+
+
+
+
+
+
+
+t" the values of the sum and the original base number,
 allowing us to see them.
 
 **LAB**:
@@ -471,6 +496,9 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
 ```
 
 Run `learn` to verify you've gotten this set of tests passing.
+
+
+
 
 ### Additional Practice in Lab-Driven Development for JavaScript Basics
 
